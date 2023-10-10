@@ -1,0 +1,47 @@
+.header-background {
+    background-image: url('img/backgroundhero.jpg');
+    background-size: cover; /* This makes the image cover the entire header */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    /* You can also add more CSS properties to style the background as needed */
+}
+
+/* Custom CSS for the Portfolio section background image */
+.portfolio-section {
+  background-image: url('img/pixe1.png'); /* URL to your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+/* Custom CSS for the Contact Me section background image */
+.contact-section {
+  background-image: url('img/friendly-robot-ig1-00129.jpg'); /* URL to your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+
+.about-section {
+  background-image: url('img/jona.jpg'); /* URL to your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+/* Styles for Small Screens */
+@media only screen and (max-width: 500px) {
+  .hero {
+      background: url('img/yow.jpg');
+      background-size: cover; /* Adjust the size as needed */
+  }
+}
+
+/* Styles for Medium Screens */
+@media only screen and (max-width: 500px) {
+  .hero {
+      background: url('img/yow.jpg');
+      background-size: cover; /* Adjust the size as needed */
+  }
+}
